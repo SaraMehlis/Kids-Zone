@@ -1,0 +1,19 @@
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*main*/
+main {
+
+    /*make main element take up any surplus space*/
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display:flex;
+    flex-direction:column;
+
+}
+
+
