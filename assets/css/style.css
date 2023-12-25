@@ -1,8 +1,13 @@
+ /* Google font import */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:opsz@6..12&family=Roboto:wght@100&display=swap');
+
 /*General styles*/
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    color: #3a3a3a;
 }
 
 /*main*/
