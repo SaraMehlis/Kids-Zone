@@ -3,51 +3,95 @@
 
 
 
-/*General styles*/
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    color: #000000;
-}
+ /*General styles*/
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     font-family: 'Lato', sans-serif;
+     color: #000000;
+ }
 
-/*main*/
-main {
+ /*main*/
+ main {
 
-    /*make main element take up any surplus space*/
-    flex: 1 0 auto;
-    margin-top: 47px;
-    display:flex;
-    flex-direction:column;
+     /*make main element take up any surplus space*/
+     flex: 1 0 auto;
+     margin-top: 47px;
+     display: flex;
+     flex-direction: column;
 
-}
+ }
 
-/*header*/
-header {
-    background-color: #ffffff;
-    padding: 0;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+ /*header*/
+ header {
+     background-color: #f55;
+     padding: 0;
+     position: fixed;
+     z-index: 99;
+     width: 100%;
+     box-shadow: 0 1px 1px #3a3a3a;
+     display: flex;
+
+
+ }
+ #logo{
+
+ }
+
+ #menu {
+     font-size: 100%;
+     letter-spacing: 2px;
+     list-style-type: none;
+     text-transform: uppercase;
+     line-height: 1.5em;
+
+ }
+
+ header a {
+     text-decoration: none;
+     color: inherit;
+
+ }
+
+ /*navbar styles with dropdown toggle*/
+ nav {
+     position: absolute;
+     background-color: #ffffff;
+     width: 100%;
+     left: 0;
+     padding: 0 1rem;
+     box-shadow: 0 2px 2px #3a3a3a;
+     display: none;
+     top: 100%;
+
+
+     /*nav toggle*/
+     #nav-toggle:checked~nav {
+         display: block;
+     }
+
+     #nav-toggle {
+         display: none;
+     }
+     .nav-toggle-label {
+        font-size: 2rem;
+       
+    }
+
+     /*footer*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    align-items: baseline;
-}
-
-#menu {
-    font-size: 100%;
-    letter-spacing: 3px;
     list-style-type: none;
+
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+    
 }
-
-#menu>li {
-    margin-bottom: 1em;
-}
-
