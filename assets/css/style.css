@@ -1,7 +1,12 @@
  /* Google font import */
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:opsz,wght@6..12,400;6..12,800;6..12,1000&family=Roboto:wght@100&display=swap');
 
-
+/*Asterisk wildcard selector to override default styles added by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
  /*General styles*/
  body {
@@ -94,4 +99,14 @@
     padding: 5%;
     color: #3a3a3a;
     
+}
+/*media query: larger landscape phones(576px and above)*/
+@media  screen and (min-width:768px) {
+    nav{
+        display:block;
+        width:fit-content;
+        box-shadow: none;
+        position: relative;
+        padding-right: 1rem;
+    }
 }
