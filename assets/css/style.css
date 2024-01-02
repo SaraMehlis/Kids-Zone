@@ -73,9 +73,11 @@ nav {
  }
  #nav-toggle {
     display: none;
+   
 }
 .nav-toggle-label {
     font-size: 2rem;
+    
    
 }
 
@@ -83,6 +85,17 @@ nav {
     background: no-repeat center center/cover;
     position: relative;
 }
+#reasons h2{
+    text-align: center;
+    color: #f55;
+    
+}
+#box1 h3{
+    margin-top: 30px;
+    color:#f55;
+}
+
+
 
  /*footer*/
  #social-networks {
