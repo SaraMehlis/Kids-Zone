@@ -29,58 +29,31 @@
  }
 
  /*header*/
- header {
-     background-color: #f55;
-     padding: 0;
-     position: fixed;
-     z-index: 99;
-     width: 100%;
-     box-shadow: 0 1px 1px #3a3a3a;
-     display: flex;
-
+ .container-fluid{
+    background-color: #f55; 
+ }
+ header{
+    background-color: #f55;
+ }
+ .navbar-nav{
+    background-color: #f55; 
+ }
+ .navbar-brand{
+    background-color: #f55;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+ .nav-link{
+    font-size: 16px;
+    font-weight:lighter;
+ }
 
  
-
- #menu {
-     font-size: 100%;
-     letter-spacing: 2px;
-     list-style-type: none;
-     text-transform: uppercase;
-     line-height: 1.5em;
-     display: flex;
-
- }
-
- header a {
-     text-decoration: none;
-     color: inherit;
-
- }
- /*navbar styles with dropdown toggle*/
-nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-
- /*nav toggle*/
- #nav-toggle:checked ~ nav {
-    display: block;
- }
- #nav-toggle {
-    display: none;
-   
-}
-.nav-toggle-label {
-    font-size: 2rem;
+ .navbar-expand-lg .bg-body-tertiary{
     
-   
-}
-
+ }
+ 
 #cover-photo{
     background: no-repeat center center/cover;
     position: relative;
